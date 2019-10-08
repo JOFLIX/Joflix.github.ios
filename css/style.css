@@ -174,9 +174,6 @@ button:focus {
     padding: 100px 80px 100px 80px;
 }
 
-#about {
-  /*background-color: #202833;*/
-}
 #about-me > .blockquote {
   border-left: 5px solid #19bd9b;
   font-family: Montserrat;
@@ -249,26 +246,27 @@ button:focus {
 
 #areas > p, #tools > p, #frameworks > p, #languages > p{
   text-align: center;
--  font-family: 'Montserrat';
+  font-family: 'Montserrat';
   color: white;
   font-weight: bold;
   font-size: 30px;
 }
+
 #areas {
-  background: #ef8925;
-  border-color: #ef8925;
+  background: #0ce0ab;
+  border-color: #0ce0ab;
   transition: 0.5s;
 }
 
 #tools {
-  background: #e6d019;
-  border-color: #e6d019;
+  background: #09f1bf;
+  border-color: #0df7bc;
   transition: 0.5s;
 }
 
 #frameworks {
-  background: #0396f2;
-  border-color: #0396f2;
+  background: #17b989;
+  border-color: #27af70;
   transition: 0.5s;
 }
 
@@ -291,7 +289,7 @@ button:focus {
 }
 
 #areas-modal > .modal-content {
-  background-color: #ef8925 !important;
+  background-color: #20cc8a !important;
 }
 
 #languages-modal > .modal-content {
@@ -299,7 +297,7 @@ background-color: #02cdb3 !important;
 }
 
 #tools-modal > .modal-content {
-background-color: #e6d019 !important;
+background-color: #19e6ba !important;
 }
 
 #frameworks-modal > .modal-content {
